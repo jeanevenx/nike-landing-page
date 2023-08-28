@@ -38,4 +38,4 @@ const App = () => (
   </main>
 )
 
-export default App
+export default App;
