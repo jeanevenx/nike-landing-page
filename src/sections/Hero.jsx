@@ -1,12 +1,34 @@
+import Button from "../components/Button"
+import { arrowRight } from "../assets/icons"
+
 const Hero = () => {
   return (
     <section
       id="home"
       className="w-full flex xl:flex-row flex-col 
-        border-2 border-red-500 p-2 justify-center min-h-screen
-        gap-10"
+        justify-center min-h-screen
+        gap-10 max-container"
     >
+      <div className="relative xl:w-2/5 flex flex-col justify-center 
+        items-start w-full max-xl:padding-x pt-28"
+      >
+        <p>Our summer collection</p>
+        <h1>
+          <span>The New Arrival</span>
+          <br />
+          <span>Nike </span>
+          Shoes
+          </h1>
+          <p>
+            Discover stylish Nike arrivals, quality comfort, 
+            and innovation to help you look and feel your best.
+          </p>
+          <Button 
+            label="Shop now"
+            iconUrl={arrowRight}
+          />
 
+      </div>
     </section>
   )
 }
