@@ -10,7 +10,7 @@ const ShoeCard = ({imgURL, changeBigShoeImage,bigShoeImg}) => {
         ${bigShoeImg === imgURL.bigShoe
         ? 'border-coral-red'
         : 'border-transparent'} cursor-pointer
-        hover:border-coral-red transition-all
+        hover:border-[#C1C4DE] transition-all
         max-sm:flex-1
     `}
         onClick={handleClick}
